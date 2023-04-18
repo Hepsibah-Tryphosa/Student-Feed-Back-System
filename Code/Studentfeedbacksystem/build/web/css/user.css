@@ -1,0 +1,59 @@
+/* 
+    Document   : user
+    Created on : Aug 17, 2015, 2:03:08 PM
+    Author     : Ramu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-color: #e3f7ff;
+	background-image: url(images/tooplate_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+div.banner
+{
+width:900px;
+padding:15px;
+border:2px solid gray;
+margin:100px;
+margin-top:130px;
+height: 1400px;
+background-color: white;
+position: relative;
+z-index: 5000;
+    
+}
+
+table {
+    width:100%;
+}
+table, th, td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td,tr {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+
